@@ -210,3 +210,7 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; font-size: 15p
 .legal code { font-size: 14px; background: var(--sand); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
 .back { display: inline-block; margin: 0 0 16px; font-size: 15px; text-decoration: none; }
 .back:hover { text-decoration: underline; }
+.plan-buy { margin-top: auto; justify-content: center; width: 100%; }
+.plan ul + .plan-buy { margin-top: auto; }
+.plan .plan-buy + .fine { margin-top: 0; padding-top: 10px; }
+.plan ul:has(+ .plan-buy) { margin-bottom: 24px; }
